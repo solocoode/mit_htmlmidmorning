@@ -1,0 +1,74 @@
+/*body{
+  background-image:url("spacex.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}*/
+p{
+  color: red;
+  font-family: "DejaVu Sans", serif;
+  font-size: 21px;
+}
+button{
+padding: 20px;
+  background-color: red;
+  font-family: SansSerif, serif;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  float: right;
+  border: thick;
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+button:hover{
+  background-color: blue;
+  animation: alternate;
+  animation-direction: reverse;
+}
+table{
+  background-image: url("tiktoklogo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  border-collapse: collapse;
+ }
+th,td{
+  border: 3px dotted red;
+  font-family: SansSerif, serif;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+tr:nth-child(odd){
+  background: blue;
+  font-family: "DejaVu Sans", serif;
+  font-size: 15px;
+  color: red;
+
+}
+tr:nth-child(even){
+  background: red;
+}
+li,a{
+      padding: 15px;
+  border-radius: 20px;
+  background-color: green;
+}
+li{
+      float: left;
+}
+li:hover{
+  padding: 2px;
+  border-radius: 20px;
+}
+ul{
+      list-style-type: none;
+  padding: 5px;
+}
+h1{
+  float: left;
+}
+
+

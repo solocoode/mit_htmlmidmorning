@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+li{
+  float: left;
+  padding: 5px;
+}
+
+.navbar{
+
+}
+
+
+.nav-left{
+  float: left;
+}
+
+.logo{
+  margin: 18px;
+}
+
+
+.nav-centre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-centre a {
+  color: grey;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-right{
+  display: flex;
+  justify-content: right;
+}
+.navbar{
+  background-color: white;
+}
+.btn-1{
+  background: linear-gradient(45deg, lime, deepskyblue);
+  border-radius: 20px;
+  color: white;
+  padding: 1px 10px;
+  border: none;
+  font-size: 25px;
+}
+
+/*
+btn-1:hover{
+  animation: forwards;
+  animation-duration: 0.1s;
+}
+*/
+
+.btn-2{
+   background: linear-gradient(45deg, lime, deepskyblue);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 25px;
+}
+
+#left{
+  margin: auto;
+  width: 30%;
+  justify-content: center;
+  text-align: center;
+  text-align: left;
+  margin: 20px;
+}
+
+.h1{
+  font-size: 20px;
+}
+.p{
+  font-size: 15px;
+}
+
+.left{
+  justify-content: left;
+  float: left;
+  text-align: left;
+
+}
+
+.parent {
+  width: 70%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+  width: 500px;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 1px green solid;
+  width: 400px;
+}
+
+.why-left{
+  width: 50%;
+  padding-bottom: 25px;
+}
+
+.h2{
+  padding: 20px;
+}
+
+#right{
+  display: flex;
+  justify-content: right;
+}
+
+.btn-3{
+   background: linear-gradient(45deg, lime, deepskyblue);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 25px;
+}
+
+.foot-right {
+  display: flex;
+  justify-content: right;
+}
+
+#break{
+  color: black;
+}
+
+.nav-centre{
+  color: white;
+}
+
+.rows{
+  display: flex;
+  float: left;
+}
+
+.container{
+
+  justify-content: center;
+}
+
+footer{
+  background-color: darkblue;
+}
+
+
