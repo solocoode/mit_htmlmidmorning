@@ -165,3 +165,17 @@ footer{
 }
 
 
+.cont{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.late{
+display: flex;
+float: right;
+  padding: 20px;
+  justify-content: center;
+}
+
